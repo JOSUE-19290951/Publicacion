@@ -45,34 +45,4 @@ public class Libro extends Publicacion
     {
         this.libros= new ArrayList<>();
     }
-
-    
-   /* public ArrayList setLibros(){
-        Scanner sc = new Scanner(System.in);
-        Libro lib = new Libro();
-        
-        System.out.println("Ingrese el ISBN: ");
-        String is= sc.nextLine();
-        lib.setISBN(is);
-        System.out.println("Ingrese la edicion: " );
-        String edi= sc.nextLine();
-        lib.setEdicion(edi);
-        System.out.println("Ingrese el autor: ");
-        String aw= sc.nextLine();
-        lib.setAutor(aw);
-        
-        libros.add(new Libro(is, edi,aw));
-        return libros;
-    }
-    
-    public void getArray()
-    {
-        System.out.println(" ----lIBRO----  ");
-        for(int i=0; i<libros.size(); i++)
-        {
-            System.out.println("ISBN: "+libros.get(i).getISBN());
-            System.out.println("Edicion: "+libros.get(i).getEdicion());
-            System.out.println("Autor: "+libros.get(i).getAutor());
-        }
-    }*/
 }
